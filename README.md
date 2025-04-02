@@ -6,7 +6,7 @@ bash script for automatic time tracking that logs the time the script is running
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/clockin.git
+   git clone
    cd clockin
    ```
 
