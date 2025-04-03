@@ -6,7 +6,8 @@ bash script for automatic time tracking that logs the time the script is running
 
 1. Clone this repository:
    ```bash
-   git clone <SSH>
+   cd ~
+   git clone git@github.com:hermeszi/clockin.git
    cd clockin
    ```
 
@@ -57,7 +58,7 @@ INTERVAL=300               # Check interval in seconds (5 minutes)
 
 ## CSV Format
 
-The generated CSV files follow this simple format:
+The generated CSV files follow this format:
 
 ```
 Date,Login Time (minutes)
