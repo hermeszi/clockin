@@ -39,7 +39,7 @@ bash script for automatic time tracking that logs the time the script is running
 echo "$HOME/clockin/clockin.sh start > /dev/null 2>&1 &" >> ~/.bashrc
 
 # verify it's running:
-ps aux | grep login-tracker
+ps aux | grep clockin
 
 # stop clockin when it's running in the background
 kill -KILL PID_NUMBER
