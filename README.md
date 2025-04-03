@@ -6,7 +6,7 @@ bash script for automatic time tracking that logs the time the script is running
 
 1. Clone this repository:
    ```bash
-   git clone
+   git clone <SSH>
    cd clockin
    ```
 
@@ -29,6 +29,20 @@ bash script for automatic time tracking that logs the time the script is running
 
 # Show help
 ./clockin.sh help
+```
+
+## Auto start when you start bash
+
+```bash
+# add clockin script to .bashrc
+echo "$HOME/clockin/clockin.sh start > /dev/null 2>&1 &" >> ~/.bashrc
+
+# verify it's running:
+ps aux | grep login-tracker
+
+# stop clockin when it's running in the background
+kill -KILL PID_NUMBER
+
 ```
 
 ## Configuration
